@@ -2,7 +2,6 @@ global class DocumentRequestEmailService implements Messaging.InboundEmailHandle
  
 	global Messaging.InboundEmailResult handleInboundEmail(Messaging.InboundEmail email, Messaging.InboundEnvelope env) {
 
-//TODO: error handling - add error to task?
 
 		Messaging.InboundEmailResult result = new Messaging.InboundEmailResult();
   
